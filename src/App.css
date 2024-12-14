@@ -1,0 +1,63 @@
+h1 {
+  text-align: center;
+}
+.add-item {
+  display: flex;
+  justify-content: center;
+}
+.add-item input {
+  height: 40px;
+  width: 160px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  font-size: 20px;
+  outline: none;
+}
+
+.list {
+  text-align: left;
+  width: 230px;
+  height: 150px;
+  background-color: lightgray;
+  margin: 10px auto;
+  overflow-y: auto;
+}
+.product {
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.product:hover {
+  background-color: aquamarine;
+}
+.bucket-list {
+  display: flex;
+  align-items: center;
+  background-color: lightseagreen;
+  width: 230px;
+  height: 50px;
+  justify-content: space-around;
+  margin: 10px auto;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.bucket-list button {
+  background-color: lightseagreen;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  height: 40px;
+  width: 40px;
+}
+.bucket-list button:hover {
+  background-color: #fff;
+  border-radius: 50%;
+}
+.strike {
+  text-decoration: line-through;
+  color: lightgray;
+}
